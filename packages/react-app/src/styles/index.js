@@ -1,18 +1,18 @@
 const styles = {
   // App.js
-  container: "flex justify-center min-h-screen sm:px-16 px-6 bg-site-black",
+  container: "flex justify-center min-h-screen sm:px-16 px-6 bg-slate-700",
   innerContainer:
     "flex justify-between items-center flex-col max-w-[1280px] w-full",
   header: "flex flex-row justify-between items-center w-full sm:py-10 py-6",
   exchangeContainer:
     "flex-1 flex justify-start items-center flex-col w-full mt-10",
   headTitle: "text-white font-poppins font-black text-5xl tracking-wide",
-  subTitle: "text-dim-white font-poppins font-medium mt-3 text-base",
+  subTitle: "text-white font-poppins font-medium mt-3 text-base",
   exchangeBoxWrapper: "mt-10 w-full flex justify-center",
   exchangeBox:
     "relative md:max-w-[700px] md:min-w-[500px] min-w-full max-w-full gradient-border p-[2px] rounded-3xl",
   exchange:
-    "w-full min-h-[400px] bg-site-black backdrop-blur-[4px] rounded-3xl shadow-card flex p-10",
+    "w-full min-h-[400px] bg-slate-700 backdrop-blur-[4px] rounded-3xl shadow-card flex p-10",
 
   // AmountIn & AmountOut
   amountContainer:
@@ -22,7 +22,7 @@ const styles = {
   currencyButton:
     "flex flex-row items-center bg-site-dim2 py-2 px-4 rounded-xl font-poppins font-bold text-white",
   currencyList:
-    "absolute z-10 right-0 bg-site-black border-[1px] border-site-dim2 w-full mt-2 rounded-lg min-w-[170px] overflow-hidden",
+    "absolute z-10 right-0 bg-slate-700 border-[1px] border-site-dim2 w-full mt-2 rounded-lg min-w-[170px] overflow-hidden",
   currencyListItem:
     "font-poppins font-medium text-base text-white hover:text-dim-white px-5 py-3 hover:bg-site-dim2 cursor-pointer",
 
