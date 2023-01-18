@@ -17,7 +17,16 @@ const App = () => {
 
         <div className={styles.exchangeContainer}>
           <h1 className={styles.headTitle}>Uniswap 2.0</h1>
-          <p className={styles.subTitle}>Exchange tokens in seconds </p>
+          <p className={styles.subTitle}>Exchange tokens in seconds</p>
+          <div className={styles.exchangeBoxWrapper}>
+          <div className={styles.exchangeBox}>
+            <div className="pink_gradient" />
+            <div className={styles.exchange}>
+
+            </div>
+            <div className="blue_gradient" />
+          </div>
+          </div>
         </div>
       </div>
     </div>
